@@ -11,4 +11,4 @@ Take into consideration that you will need Firefox 114.0.2 and Chrome 114.0.5735
 
 - page-objects folder contains the page that represent the form modal
 - test folder contains the test files
-
+- By default, the test will run in chrome browser. 
