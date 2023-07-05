@@ -2,7 +2,8 @@ module.exports = {
     'Testing valid and invalid data in Get in Touch form'(browser) {
 
         const page = browser.page.getInTouch();
-
+        page.setWindowSize(1920, 1080);
+        
         page.navigate(); //Navigate to December Labs staging environment
         page.clickOnButtonByText('Get in touch'); // Click on Get in touch button
         page.waitForVisibility('@popUpTitle'); // Wait for popup title to be visible
